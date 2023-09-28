@@ -1,0 +1,17 @@
+autohotkey.com/download/ahk-install.exe
+
+
+^!1::  
+; Ctrl+Alt+1 = Display 1  
+Run, "D:\Software\Display Switch\DisplaySwitch.exe" /internal  
+return  
+  
+^!2::  
+; Ctrl+Alt+2 = Display 2  
+Run, "D:\Software\Display Switch\DisplaySwitch.exe" /external  
+return  
+  
+^!3::  
+; Ctrl+Alt+3 = Display 1+2  
+Run, "D:\Software\Display Switch\DisplaySwitch.exe" /extend  
+return
